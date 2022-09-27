@@ -9,6 +9,7 @@ def sorting_even_odd_numbers(numbers: list) -> list:
             odd_numbers.append(i)
         else:
             even_numbers.append(i)
-    return [even_numbers, odd_numbers]
+    return[even_numbers, odd_numbers]
 
- print(sorting_even_odd_numbers([1, 3, 4, 2, 5, 6]))
+
+print(sorting_even_odd_numbers([1, 3, 4, 2, 5, 6]))
